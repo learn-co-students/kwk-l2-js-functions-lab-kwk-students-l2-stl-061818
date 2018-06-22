@@ -17,13 +17,18 @@ function distanceTravelledInFeet(input1,input2){
   return betweenBlocks;  
 }
 
-function calculatesFarePrice(start,destination){
-  let block1=start;
-  let block2=destination;
-  betweenTheTwo=Math.abs(start-destination)*264;
-  function Price(betweenTheTwo){
-       if betweenTheTw0<=400
-       return "Free";
-       
-       else 
+function calculatesFarePrice(input1,input2){
+     let cost;
+     calculatedFee
+       if (cost<400){
+       text= "Free";}
+       else if (>=400 && betweenTheTwo<=2000){
+       text="2 cents per foot"}
+       else if (betweenTheTwo>=2000 && betweenTheTwo<2500){
+       return "25"}
+       else if (betweenTheTwo>2500){
+       console.log("cannot travel that far")}
+    return Price
   }
+  return calculatesFarePrice
+}
